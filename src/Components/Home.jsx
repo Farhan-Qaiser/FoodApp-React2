@@ -17,7 +17,7 @@ const foodCard = [
         name:'Momos',
     },
 ]
-const menuCard = [
+const menu = [
     {
       id: 1,
       name: "Margherita Pizza",
@@ -73,7 +73,7 @@ function Home() {
          <section className="mx-auto">
             <h2 className="text-center font-bold text-2xl text-gray-700 my-10">Food Menu</h2>
             <div className="flex flex-wrap justify-around gap-5 sm:px-3">
-                {menuCard.map((item)=>
+                {menu.map((item)=>
                     <MenuCard key={item.id} url={item.imageUrl} name={item.name} price={item.price} description={item.description}/>)}
             </div>
          </section>
