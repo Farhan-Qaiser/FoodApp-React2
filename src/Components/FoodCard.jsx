@@ -1,5 +1,3 @@
-import Pizza from "../assets/pizza.jpg"
-
 
 function FoodCard({url,name}) {
 
