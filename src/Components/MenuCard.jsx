@@ -1,6 +1,6 @@
 function MenuCard({url,name,price,description}) {
     return (
-        <div className="flex border border-gray-300 rounded-lg px-4 py-2 gap-x-2 md:w-[40%]">
+        <div className="border border-gray-300 rounded-lg px-4 py-2 flex gap-x-2 md:w-[40%]">
            <img src={url} className="w-32 h-48 object-cover rounded-md" />
            <div className="flex flex-col">
            <span className="text-gray-900 text-lg font-bold">{name}</span>
